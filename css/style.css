@@ -45,6 +45,10 @@ color: #181818;
 text-transform: uppercase;
 padding: 0 25px;
 font-weight: 600;
+transition: .4s;
+}
+.menu ul li a:hover{
+    color: #5956E8;
 }
 .button a{
     padding: 15px 25px;
