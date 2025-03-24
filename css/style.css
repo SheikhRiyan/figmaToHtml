@@ -1,0 +1,100 @@
+/* All Common CSS Start  */
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+}
+ul, ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    font-family: "Inter Tight", sans-serif;
+}
+/* All Common CSS end  */
+
+
+/* Header Part Start  */
+#headerPart{
+    padding: 25px 0;
+}
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 115.21px;
+    height: 83.63px;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+font-size: 18px;
+color: #181818;
+text-transform: uppercase;
+padding: 0 25px;
+font-weight: 600;
+}
+.button a{
+    padding: 15px 25px;
+    background: #5956E8;
+    color: #fff;
+    border-radius: 10px;
+}
+/* Header Part End  */
+
+
+
+/* Banner Part Start  */
+#banner{
+    padding-bottom: 80px;
+    background: #5956E8;
+}
+.bannerPart{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+.colRight{
+    align-items: center;
+}
+.colRight h1{
+    width: 501px;
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #FFFEFE;
+}
+.colRight p{
+    width: 542px;
+    padding: 15px 0px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFEFE;
+}
+.buttonTwo a{
+    background: #FFFEFE;
+    color: #5956E8;
+    border-radius: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.colLeft img{
+    padding-left: 150px;
+}
+/* Banner Part End */
